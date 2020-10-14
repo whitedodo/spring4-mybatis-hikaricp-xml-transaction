@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0/EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+
+<configuration>
+	<!-- Alias 지정해주면 직접 경로 입력 안해도 됨 -->
+	<typeAliases>
+		<typeAlias alias="FoodMenuVO" type="com.website.example.vo.FoodMenuVO" />
+		<typeAlias alias="AccountVO" type="com.website.example.vo.AccountVO" />
+	</typeAliases>
+	
+</configuration>
